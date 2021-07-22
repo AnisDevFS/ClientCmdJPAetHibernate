@@ -11,6 +11,7 @@
         <class>com.entities.Commande</class>
         <class>com.entities.Voiture</class>
         <class>com.entities.Compte</class>
+        <class>com.entities.Carte</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />

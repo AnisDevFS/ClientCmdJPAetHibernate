@@ -1,9 +1,12 @@
 package com.entities;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity @Table(name = "compte")
@@ -15,6 +18,18 @@ public class Compte {
 	private String reference;
 	private  int solde;
 	
+    @OneToOne( cascade = CascadeType.ALL )  
+    @JoinColumn( name="id_carte")
+    private Carte carte;
+	
+
+	public Carte getCarte() {
+		return carte;
+	}
+
+	public void setCarte(Carte carte) {
+		this.carte = carte;
+	}
 
 	public Compte(String reference, int solde) {
 		this.reference = reference;
