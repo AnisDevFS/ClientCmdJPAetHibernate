@@ -32,14 +32,12 @@ public class Commande {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Commande(int id_commande, String produit, int nombre, int prix, Date date, Client client) {
+	public Commande(String produit, int nombre, int prix, Date date) {
 		super();
-		this.id_commande = id_commande;
 		this.produit = produit;
 		this.nombre = nombre;
 		this.prix = prix;
 		this.date = date;
-		this.client = client;
 	}
 	
 

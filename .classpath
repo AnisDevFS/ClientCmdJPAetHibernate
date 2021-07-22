@@ -31,5 +31,7 @@
 	<classpathentry kind="lib" path="C:/Users/Poste 2/Desktop/workspaces new/ClientCmdJPAetHibernate/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Poste 2/Desktop/workspaces new/ClientCmdJPAetHibernate/src/main/webapp/WEB-INF/lib/stax-ex-1.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Poste 2/Desktop/workspaces new/ClientCmdJPAetHibernate/src/main/webapp/WEB-INF/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Poste 2/Desktop/workspaces new/ClientCmdJPAetHibernate/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Poste 2/Desktop/workspaces new/ClientCmdJPAetHibernate/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0 (1).jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

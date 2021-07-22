@@ -54,19 +54,38 @@ public class Client {
 	}
 
 
-	public Client(int id_client, String nom, String email, String password, int age) {
+	public Client( String nom, String email, String password, int age) {
 		super();
-		this.id_client = id_client;
 		this.nom = nom;
 		this.email = email;
 		this.password = password;
 		this.age = age;
 	}
 
+	public Compte getCompte() {
+		return compte;
+	}
+
+
+	public void setCompte(Compte compte) {
+		this.compte = compte;
+	}
+
+
+	public List<Voiture> getVoitures() {
+		return voitures;
+	}
+
+
+	public void setVoitures(List<Voiture> voitures) {
+		this.voitures = voitures;
+	}
+
+
 	@Override
 	public String toString() {
 		return "Client [id_client=" + id_client + ", nom=" + nom + ", email=" + email + ", password=" + password
-				+ ", age=" + age + ", commandes=" + commandes + "]";
+				+ ", age=" + age + "]";
 	}
 
 	public int getId_client() {
